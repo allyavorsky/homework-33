@@ -1,0 +1,31 @@
+$color-primary: rgb(45, 45, 45);
+$color-gray: rgb(249, 249, 249);
+
+$default-gap: 96px;
+
+body {
+  font-family: sans-serif;
+}
+
+section {
+  width: 100%;
+  max-width: 768px;
+  margin: $default-gap;
+  padding: $default-gap;
+  background: $color-gray;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+}
+
+h1 {
+  color: $color-primary;
+  margin: 0 0 32px 0;
+}
+
+p {
+  user-select: none;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+}
